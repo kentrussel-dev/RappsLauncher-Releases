@@ -16,12 +16,14 @@
 
 | Package | Format | Architecture | Download Link |
 |---|---|---|---|
-| **Rapps Launcher Installer & Portable (v1.1.0)** | `.zip` | Windows x64 | **[Download RappsLauncher-v1.1.0-win-x64.zip](releases/RappsLauncher-v1.1.0-win-x64.zip)** |
+| **Windows Setup Wizard (Recommended)** | `.exe` | Windows x64 | **[Download RappsLauncher-Setup-v1.1.0.exe](releases/RappsLauncher-Setup-v1.1.0.exe)** |
+| **Portable Zip Package** | `.zip` | Windows x64 | **[Download RappsLauncher-v1.1.0-win-x64.zip](releases/RappsLauncher-v1.1.0-win-x64.zip)** |
 
 ---
 
 ## What's New in Version 1.1.0
 
+- **Windows Setup Wizard Installer**: Standard Windows installer (`.exe`) with wizard installation, desktop shortcut options, Windows startup configuration, and clean uninstaller in Windows Settings.
 - **Custom Workspace Images**: Workspaces can now use custom image files (PNG, JPG, ICO, WebP, SVG) as their icon with live preview in the workspace editor.
 - **Black & White Brand Theme**: UI accent palette updated to match the monochrome aesthetic of the brand logo.
 - **Responsive Settings Page**: Redesigned settings view with flexible layout, categorized cards, and auto-expanding input controls without text truncation.
@@ -31,19 +33,14 @@
 
 ## Installation Guide
 
-### Option 1: Automated Installer (Recommended)
-1. Download `RappsLauncher-v1.1.0-win-x64.zip` and extract its contents.
-2. Run `Install-RappsLauncher.bat` (or execute `Install-RappsLauncher.ps1`).
-3. The installation script will automatically:
-   - Copy application binaries to the local application directory
-   - Create a Desktop shortcut with the application icon
-   - Create a Start Menu shortcut for Windows Search indexing
-   - Configure Windows Startup registration
-   - Launch Rapps Launcher
+### Option 1: Windows Setup Wizard (Recommended)
+1. Download **`RappsLauncher-Setup-v1.1.0.exe`**.
+2. Run the executable and follow the setup wizard.
+3. The wizard will automatically install Rapps Launcher, create Desktop & Start Menu shortcuts, configure Windows Search indexing, and launch the application.
 
 ### Option 2: Portable Deployment
-1. Extract `RappsLauncher-v1.1.0-win-x64.zip` to your preferred directory.
-2. Execute `RappsLauncher.exe` directly.
+1. Download and extract **`RappsLauncher-v1.1.0-win-x64.zip`** to any directory.
+2. Run `RappsLauncher.exe` directly.
 
 ---
 
