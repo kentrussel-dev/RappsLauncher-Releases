@@ -1,10 +1,14 @@
-# Rapps Launcher - Releases and Downloads
+<div align="center">
+  <img src="assets/app_icon.png" width="128" height="128" alt="Rapps Launcher Logo" />
+  <h1>Rapps Launcher - Releases & Downloads</h1>
+  <p>Official pre-built releases, installers, and distribution packages for <a href="https://github.com/kentrussel-dev/RappsLauncher">Rapps Launcher</a>.</p>
 
-Official pre-built releases, installers, and distribution packages for [Rapps Launcher](https://github.com/kentrussel-dev/RappsLauncher).
-
-[![Latest Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square&logo=github)](https://github.com/kentrussel-dev/RappsLauncher-Releases/releases)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white)](https://github.com/kentrussel-dev/RappsLauncher-Releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/kentrussel-dev/RappsLauncher/blob/main/LICENSE)
+  <p>
+    <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square&logo=github" alt="Latest Release" /></a>
+    <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases"><img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Platform" /></a>
+    <a href="https://github.com/kentrussel-dev/RappsLauncher/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
+  </p>
+</div>
 
 ---
 
