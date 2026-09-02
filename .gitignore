@@ -1,0 +1,5 @@
+# Releases repository gitignore
+.vs/
+.idea/
+.vscode/
+*.tmp
