@@ -21,6 +21,31 @@
 
 ---
 
+## Showcase
+
+### Multi-Application Workspace Orchestration
+Group applications, terminals, web dashboards, and development servers with customized staggered execution delays:
+
+<p align="center">
+  <img src="assets/showcase-workspace.png" width="850" alt="Multi-Item Developer Workspace" />
+</p>
+
+### Daily Workflow & Custom Icons
+Organize your daily communication tools, browser tab sessions, and project boards with custom workspace logos:
+
+<p align="center">
+  <img src="assets/showcase-comms.png" width="850" alt="Daily Workflow and Comms" />
+</p>
+
+### Modern Fluent Settings
+Configure startup behaviors, theme preferences, execution thresholds, Unity Hub paths, and diagnostics with an adaptive, responsive interface:
+
+<p align="center">
+  <img src="assets/showcase-settings.png" width="850" alt="Responsive Fluent Settings" />
+</p>
+
+---
+
 ## What's New in Version 1.1.0
 
 - **Windows Setup Wizard Installer**: Standard Windows installer (`.exe`) with wizard installation, desktop shortcut options, Windows startup configuration, and clean uninstaller in Windows Settings.
