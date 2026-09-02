@@ -4,7 +4,7 @@
   <p>Official pre-built releases, installers, and distribution packages for <a href="https://github.com/kentrussel-dev/RappsLauncher">Rapps Launcher</a>.</p>
 
   <p>
-    <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases/releases"><img src="https://img.shields.io/badge/Release-v1.1.0-blue?style=flat-square&logo=github" alt="Latest Release" /></a>
+    <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases/releases"><img src="https://img.shields.io/badge/Release-v1.2.0-blue?style=flat-square&logo=github" alt="Latest Release" /></a>
     <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases"><img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Platform" /></a>
     <a href="https://github.com/kentrussel-dev/RappsLauncher/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
   </p>
@@ -12,12 +12,12 @@
 
 ---
 
-## Downloads (Version 1.1.0)
+## Downloads (Version 1.2.0)
 
 | Package | Format | Architecture | Download Link |
 |---|---|---|---|
-| **Windows Setup Wizard (Recommended)** | `.exe` | Windows x64 | **[Download RappsLauncher-Setup-v1.1.0.exe](releases/RappsLauncher-Setup-v1.1.0.exe)** |
-| **Portable Zip Package** | `.zip` | Windows x64 | **[Download RappsLauncher-v1.1.0-win-x64.zip](releases/RappsLauncher-v1.1.0-win-x64.zip)** |
+| **Windows Setup Wizard (Recommended)** | `.exe` | Windows x64 | **[Download RappsLauncher-Setup-v1.2.0.exe](releases/RappsLauncher-Setup-v1.2.0.exe)** |
+| **Portable Zip Package** | `.zip` | Windows x64 | **[Download RappsLauncher-v1.2.0-Portable-win-x64.zip](releases/RappsLauncher-v1.2.0-Portable-win-x64.zip)** |
 
 ---
 
@@ -46,25 +46,25 @@ Configure startup behaviors, theme preferences, execution thresholds, Unity Hub 
 
 ---
 
-## What's New in Version 1.1.0
+## What's New in Version 1.2.0
 
-- **Windows Setup Wizard Installer**: Standard Windows installer (`.exe`) with wizard installation, desktop shortcut options, Windows startup configuration, and clean uninstaller in Windows Settings.
-- **Custom Workspace Images**: Workspaces can now use custom image files (PNG, JPG, ICO, WebP, SVG) as their icon with live preview in the workspace editor.
-- **Black & White Brand Theme**: UI accent palette updated to match the monochrome aesthetic of the brand logo.
-- **Responsive Settings Page**: Redesigned settings view with flexible layout, categorized cards, and auto-expanding input controls without text truncation.
-- **Clean Browser Tab Visualization**: Browser tab groups now display with structured title pills and clean URLs instead of raw storage strings.
+- **Workspace Import & Export**: Export single or all workspaces to `.rapps.json` files; import configs with automated validation, user profile path warnings, and collision handling (Rename / Overwrite / Skip).
+- **Workspace Search & Live Filter**: 150ms debounced live search in the sidebar with clean no-match feedback and drag-and-drop safety protection.
+- **Per-Workspace Windows Startup**: Toggle individual workspaces to launch automatically on Windows startup via dedicated Windows Task Scheduler tasks (`RappsLauncher-Startup-<id>`).
+- **Launch History & Status Tracking**: Persistent rolling 200-entry history logging with relative timestamps, success counts, item durations, and an expandable History Dialog.
+- **Silent Auto-Update Checks**: Background update checking against GitHub Releases with an in-app banner, download link, and "Skip This Version" suppression.
 
 ---
 
 ## Installation Guide
 
 ### Option 1: Windows Setup Wizard (Recommended)
-1. Download **`RappsLauncher-Setup-v1.1.0.exe`**.
+1. Download **`RappsLauncher-Setup-v1.2.0.exe`**.
 2. Run the executable and follow the setup wizard.
 3. The wizard will automatically install Rapps Launcher, create Desktop & Start Menu shortcuts, configure Windows Search indexing, and launch the application.
 
 ### Option 2: Portable Deployment
-1. Download and extract **`RappsLauncher-v1.1.0-win-x64.zip`** to any directory.
+1. Download and extract **`RappsLauncher-v1.2.0-Portable-win-x64.zip`** to any directory.
 2. Run `RappsLauncher.exe` directly.
 
 ---
