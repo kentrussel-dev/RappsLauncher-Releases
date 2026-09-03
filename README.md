@@ -4,7 +4,7 @@
   <p>Official pre-built releases, installers, and distribution packages for <a href="https://github.com/kentrussel-dev/RappsLauncher">Rapps Launcher</a>.</p>
 
   <p>
-    <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases/releases"><img src="https://img.shields.io/badge/Release-v1.2.1-blue?style=flat-square&logo=github" alt="Latest Release" /></a>
+    <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases/releases"><img src="https://img.shields.io/badge/Release-v1.3.0-blue?style=flat-square&logo=github" alt="Latest Release" /></a>
     <a href="https://github.com/kentrussel-dev/RappsLauncher-Releases"><img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Platform" /></a>
     <a href="https://github.com/kentrussel-dev/RappsLauncher/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
   </p>
@@ -12,12 +12,12 @@
 
 ---
 
-## Downloads (Version 1.2.1)
+## Downloads (Version 1.3.0)
 
 | Package | Format | Architecture | Download Link |
 |---|---|---|---|
-| **Windows Setup Wizard (Recommended)** | `.exe` | Windows x64 | **[Download RappsLauncher-Setup-v1.2.1.exe](releases/RappsLauncher-Setup-v1.2.1.exe)** |
-| **Portable Zip Package** | `.zip` | Windows x64 | **[Download RappsLauncher-v1.2.1-Portable-win-x64.zip](releases/RappsLauncher-v1.2.1-Portable-win-x64.zip)** |
+| **Windows Setup Wizard (Recommended)** | `.exe` | Windows x64 | **[Download RappsLauncher-Setup-v1.3.0.exe](releases/RappsLauncher-Setup-v1.3.0.exe)** |
+| **Portable Zip Package** | `.zip` | Windows x64 | **[Download RappsLauncher-v1.3.0-Portable-win-x64.zip](releases/RappsLauncher-v1.3.0-Portable-win-x64.zip)** |
 
 ---
 
@@ -46,24 +46,25 @@ Configure startup behaviors, theme preferences, execution thresholds, Unity Hub 
 
 ---
 
-## What's New in Version 1.2.1
+## What's New in Version 1.3.0
 
-- **Dynamic & Flexible Confirmation Dialog**: Transformed the confirmation modal into a clean card window that automatically shrink-wraps the message text with balanced margins and zero empty space.
-- **Improved Delay Badge Visibility**: Redesigned the delay duration badge using a high-contrast pill style with clear text and clock icon readability.
-- **Button Typography & Auto-Sizing**: Ensured action buttons dynamically size to fit label contents (such as "Delete Workspace") without text truncation.
-- **Includes all v1.2.0 features**: Workspace Import & Export, Live Workspace Search & Filter, Per-Workspace Windows Startup Tasks, Rolling Launch History with Duration Tracking, and Background GitHub Update Checking.
+- **Close Applications / Workspace Teardown**: Stop all running applications associated with a workspace in one click using the new **"Close Apps"** button and sidebar context menu.
+- **Per-Item Stop Control**: Stop individual running applications from their item row using the dedicated Stop button.
+- **Multi-Tier Process Detection**: Intelligently resolves launcher shims (e.g. `blender-launcher.exe` → `blender.exe`), application folder processes, and title fallbacks.
+- **Graceful & Safe Teardown**: Requests polite window shutdown first, with guaranteed tree termination for hanging background processes while automatically protecting active browser tabs.
+- **Includes all v1.2.1 improvements**: Flexible content-wrapping confirmation dialog, high-contrast delay duration badges, and auto-sizing action buttons.
 
 ---
 
 ## Installation Guide
 
 ### Option 1: Setup Wizard (Recommended)
-1. Download **`RappsLauncher-Setup-v1.2.1.exe`** above.
+1. Download **`RappsLauncher-Setup-v1.3.0.exe`** above.
 2. Run the installer and follow the prompt instructions.
 3. Launch Rapps Launcher from your Start Menu or Desktop shortcut.
 
 ### Option 2: Portable ZIP
-1. Download **`RappsLauncher-v1.2.1-Portable-win-x64.zip`** above.
+1. Download **`RappsLauncher-v1.3.0-Portable-win-x64.zip`** above.
 2. Extract the archive to your preferred directory.
 3. Double-click **`RappsLauncher.exe`** to start the app without installation.
 
